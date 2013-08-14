@@ -1,0 +1,31 @@
+{
+  "name": "pdxcat-nrpe",
+  "version": "0.0.2",
+  "source": "https://github.com/pdxcat/puppet-module-nrpe",
+  "author": "Computer Action Team",
+  "license": "Apache License, Version 2.0",
+  "summary": "NRPE Module",
+  "description": "Installs and configures NRPE",
+  "project_page": "https://github.com/pdxcat/puppet-module-nrpe",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "e60b5dc6c059681201d7820c1b13081d",
+    "Modulefile": "b4f35e41ffdecf02a7f0c716e644de56",
+    "README.md": "0f8dceb34057ae89ba7fb263c527153e",
+    "manifests/command.pp": "cdb8c20605011e8ddf370989dda1b7b1",
+    "manifests/init.pp": "8f374927196d91d7b55fbfde13c75141",
+    "manifests/nagios_command.pp": "db135447ed3fcfd3335b132026225a6d",
+    "manifests/params.pp": "0e0e69412c9eadb86937ab96dd501a02",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "templates/command.cfg.erb": "d7dd049b689eb3b44a2629f71795b89b",
+    "templates/nrpe.cfg.erb": "f34afe9cb43b584508c5d4a191beeb3b",
+    "tests/default_commands.pp": "1b1265cdefd5a9aad535e5b2dfa3eca0",
+    "tests/init.pp": "1cd8a0e64d6c2c3d03473c6a56242285",
+    "tests/purge_commands.pp": "2b22b87fd1e2e0cd74a7436865e91866"
+  }
+}
